@@ -1,27 +1,15 @@
-# Security-Event-Analysis-Automation-Tool
+# SEA - Security-Event-Analysis-Automation-Tool
 
 ## Overview
 A SOC Analyst's tool to automate the investigation &amp; validation of possible Indicators of Compromise (IOCs) and perform various tasks including Phishing Email Analysis & Brand Monitoring to fasten the incident response. The main goal of utilizing this tool is to automate as many validation points as possible being performed by Enterprise Security Operations Team while working on any security incident including brand monitoring and possible phishing attack.
 
-The tool also implements encryption(symmetric) so all your API keys are secret & safe and cannot be manipulated until the secret encryption key is used. You can anytime however edit your API keys if you have access to encryption key.
+This tool also implements encryption(symmetric) so all your API keys are secret & safe and cannot be manipulated until the secret encryption key is used. You can anytime however edit your API keys if you have access to encryption key.
 
 ## Pre-requisites
 
 1. Python 3.x installed on machine
 2. All dependencies mentioned in requirements.txt file.
 3. API keys from multiple threat intelligence platforms being used.
-
-## Table of Contents
-
-[Features](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#features)
-
-[Requirements.txt](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#requirementstxt)
-
-[How to Use](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#how-to-use)
-
-[Pull Requests](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#pull-requests)
-
-[Change Log & Future Updates](https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool#change-log--future-updates)
 
 ## Features
 
@@ -66,7 +54,7 @@ This tool can currently perform below tasks :
 
 The script is simple to understand and use. It can be utilized to its full functionality without opening/editing source code. Isn't that great?
 
-Here is how we achieved this :
+Here is how I achieved this :
 
 1. Upon executing the main script for the first time, it will automatically direct you to configuration menu, where in you will be requested to enter the API keys of platforms used in tool
 2. All subsequent executions will present you with the menu directly unless there is some issue with access to keys file.
@@ -77,7 +65,7 @@ Here is how we achieved this :
 ### 1. Getting Started
 In order to start utilizing the tool, you just need to clone this repository.
 ```shell
-git clone https://github.com/AzharAnwar9/Security-Event-Analysis-Automation-Tool/
+git clone https://github.com/amritofficial88/SEA-Security-Event-Analysis-Automation-Tool/
 ```
 Once cloned successfully, change directory to Security-Event-Analysis-Automation-Tool/Security Analysis Automation/.
 
@@ -95,11 +83,11 @@ python main_file.py
 ```
 Upon successful execution of script for the first time, you will be directed to import your API Keys in to the tool. Check Requirements.txt step number 3 to generate the API Keys and import them during runtime.
 
-### 4. Tool is ready!!
+### 4. Now Tool is ready!!
 
 Once the API keys are successfully imported into the tool, the tool is ready to use. Simply navigate through the command options and perform almost all validation checks as you go along your security incident response process. 
 
-A simpler view of menu is given below for assistance :
+A sample view of menu is given below for assistance :
 
 ```
 1. Reputation/Blocklist Check (IPs, Domains, URLs, Hashes)
@@ -137,13 +125,8 @@ A simpler view of menu is given below for assistance :
 
 If you have any valuable suggestions & changes to add, feel free to make a pull request. Your contribution to the project is as important and appriciated as the inital release and I will make sure these are implemented with validation.
 
-## Change Log & Future Updates
-
-This is the First Version of tool. Below are few planned future updates :
-
-1. Bulk Validation of IOCs
-2. Tools supporting Red Team Exercises.
+This is the First Version of tool. 
 
 ## Author
 
-[Azhar Chougule](https://github.com/AzharAnwar9/)
+[Amritangshu Dey](https://github.com/amritofficial88/)

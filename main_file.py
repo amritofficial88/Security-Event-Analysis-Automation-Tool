@@ -62,4 +62,4 @@ if __name__ == '__main__' :
         if 0 <= selected_option < 9:
             main_switch(selected_option)
         else :
-            print("Please select correct option numer as mentioned")
+            print("Please select correct option number as mentioned")
